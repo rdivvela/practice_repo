@@ -78,12 +78,12 @@ def map_plot(map_data):
 
     )
 
-    p.axis.visible = False
-    p.xgrid.grid_line_color = None
-    p.ygrid.grid_line_color = None
+    map_figure.axis.visible = False
+    map_figure.xgrid.grid_line_color = None
+    map_figure.ygrid.grid_line_color = None
 
     # Now add the map tiles.
-    map_figure.add_tile(tiles)
+    map_figure.add_tile(CARTODBPOSITRON_RETINA)
 
     map_figure.circle(x=points_x,
                       y=points_y,
