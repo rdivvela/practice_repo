@@ -71,8 +71,8 @@ def map_plot(map_data):
 
     map_figure = bokeh_figure(
         tools="pan,wheelzoom, reset",
-        plot_width=plot_width,
-        plot_height=plot_height,
+        plot_width=800,
+        plot_height=800,
         x_range=[min_x, max_x],
         y_range=[min_y, max_y],
 
