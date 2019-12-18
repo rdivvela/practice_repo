@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="practice_repo",
+    name="map_plot",
     version="0.1.1",
     packages=find_packages(
         exclude=[
@@ -18,6 +18,6 @@ setup(
     ],
     entry_points = {
         "console_scripts": \
-        ["new_repo=mapmove_relevance.mapmove_cli:map_relevance_score_cli"]
+        ["map_plot=map_practice.bokeh_mapping:map_plot"]
     }
 )
